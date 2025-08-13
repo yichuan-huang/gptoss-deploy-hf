@@ -1,0 +1,92 @@
+/* Global styles */
+body,
+.gradio-container {
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+/* Main block styles */
+.block {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Input field styles */
+textarea,
+input[type="text"] {
+    border: 2px solid #e1e5e9 !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    font-size: 16px !important;
+    transition: all 0.3s ease !important;
+    background: #fafbfc !important;
+}
+
+textarea:focus,
+input[type="text"]:focus {
+    border-color: #667eea !important;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
+    outline: none !important;
+}
+
+/* Output container styles - supports markdown rendering */
+.output-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.output-container blockquote {
+    background: #f8f9fa !important;
+    border-left: 4px solid #667eea !important;
+    margin: 0 0 16px 0 !important;
+    padding: 12px 16px !important;
+    border-radius: 0 8px 8px 0 !important;
+    font-style: italic !important;
+    color: #495057 !important;
+}
+
+/* Button styles */
+.primary {
+    background: linear-gradient(45deg, #667eea, #764ba2) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3) !important;
+}
+
+.primary:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4) !important;
+}
+
+.secondary {
+    background: #f8f9fa !important;
+    border: 2px solid #e1e5e9 !important;
+    border-radius: 10px !important;
+    color: #495057 !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.secondary:hover {
+    background: #e9ecef !important;
+    border-color: #adb5bd !important;
+}
+
+/* Slider styles */
+input[type="range"] {
+    background: linear-gradient(45deg, #667eea, #764ba2) !important;
+    border-radius: 10px !important;
+    height: 8px !important;
+}
+
+/* Label styles */
+label {
+    color: #495057 !important;
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+}
