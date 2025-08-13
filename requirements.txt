@@ -5,4 +5,3 @@ gradio
 sentencepiece
 protobuf
 kernels
-triton>=3.4.0
