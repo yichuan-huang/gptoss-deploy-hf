@@ -7,31 +7,39 @@ CACHE_DIR = "../huggingface_cache"  # Change to your desired cache directory
 
 # UI configuration
 APP_TITLE = "GPT-OSS 20B Demo"
-DEFAULT_PROMPT_PLACEHOLDER = """Please enter your question or prompt...
+DEFAULT_PROMPT_PLACEHOLDER = """🎯 Enter your question or prompt here...
 
-Examples:
-• Who are you?
-• Explain the basic concepts of machine learning
-• Write a poem about spring"""
+💡 Try these ideas:
+• Ask me about artificial intelligence and machine learning
+• Request creative writing like stories or poems  
+• Get help with programming and technical questions
+• Explore complex topics with detailed explanations
+• Chat about current events or philosophical topics
 
-DEFAULT_OUTPUT_MESSAGE = """AI response will be displayed here...
+✨ Watch my thinking process unfold in real-time!"""
 
-💡 **Tip:** The model's thinking process will be shown in quote format, with the final answer below."""
+DEFAULT_OUTPUT_MESSAGE = """🤖 **AI Response Area**
 
-# Example prompts
+Your intelligent response will appear here with full thought chain visualization.
+
+💭 **What you'll see:**
+- My thinking process in highlighted quote blocks
+- Step-by-step reasoning and analysis  
+- Final comprehensive answer
+
+🚀 **Ready to explore AI intelligence?** Enter a prompt above to get started!"""
+
+# Enhanced example prompts
 EXAMPLE_PROMPTS = [
-    ["Who are you?"],
-    ["Explain what deep learning is and its applications in real life"],
-    ["Write a short story about future technology development"],
-    ["Help me create a plan for learning Python programming"],
-    ["Analyze the development prospects of renewable energy"],
+    ["Who are you and what makes you special?"],
+    ["Explain quantum computing in simple terms with real-world applications"],
+    ["Write a creative short story about AI and humans working together in 2030"],
+    ["Help me create a comprehensive learning plan for mastering Python programming"],
+    ["Analyze the future of renewable energy and its impact on climate change"],
+    ["What are the ethical implications of advanced AI systems?"],
+    ["Describe how blockchain technology could revolutionize different industries"],
+    ["Create a poem about the beauty of mathematics and science"],
 ]
-
-# Server configuration
-SERVER_NAME = "0.0.0.0"
-SERVER_PORT = 7860
-SHARE = False
-SHOW_ERROR = True
 
 # CSS file path
 CSS_FILE_PATH = "./static/styles.css"

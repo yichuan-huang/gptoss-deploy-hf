@@ -20,15 +20,18 @@ This project provides a simple and interactive web interface for the GPT-OSS 20B
     ```
 
 2.  **Run the Application**:
-    Start the Gradio web server by running the main application file:
+    
+    **Standard deployment (without mxfp4 triton backend):**
     ```bash
     python app.py
     ```
-    For multi-GPU deployment, you can specify which GPUs to use, for example:
+    
+    **For multi-GPU deployment, you can specify which GPUs to use, for example:**
     ```bash
     CUDA_VISIBLE_DEVICES=0,1,2,3 python app.py
     ```
-    The application will be available at the local URL provided in the terminal (e.g., `http://0.0.0.0:7860`).
+    
+    The application will be available at the local URL provided in the terminal (e.g., `http://127.0.0.1:7860`).
 
 3.  **Interact with the Model**:
     - Open the URL in your web browser.
